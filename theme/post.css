@@ -222,34 +222,10 @@ li.pagination {
 	min-height: 28px;
 }
 
-.topic-actions .buttons {
-	font-size: 12px;
-	font-weight: bold;
-	float: left;
-	width: auto;
-	height: auto;
-}
-
 .topic-actions .buttons .post-icon {
 	float: left;
 	margin: 0;
 	vertical-align: middle;
-}
-
-.topic-actions .buttons div a {
-	background-color: #3A3A39;
-	border: 1px solid rgba(255, 200, 200, 0.25);
-	color: white;
-	display: block;
-	font-family: "Times New Roman", serif;
-	font-size: 13px;
-	vertical-align: middle;
-	padding: 3px;
-	text-transform: uppercase;
-}
-
-.topic-actions .buttons div a:hover {
-	background-color: #4D4D4D;
 }
 
 .topic-actions .search-box {
