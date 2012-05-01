@@ -1,0 +1,45 @@
+/****************************************************
+ ********************** EDITOR **********************
+ ****************************************************/
+
+/* Smilies */
+#smiley-box {
+	padding: 2px;
+	width: 18%;
+	float: right;
+}
+
+div#smilies {
+	text-align: center;
+}
+
+#smiley-box img {
+	margin-right: 5px;
+}
+
+/* Message */
+#postingbox dl {
+	margin-bottom: 10px;
+}
+
+#message-box {
+	margin-bottom: 3px;
+	width: 80%;
+}
+
+#message {
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	width: 100%;
+	font-size: 12px;
+}
+
+/* Buttons */
+#format-buttons input, #format-buttons select {
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.submit-buttons input[type="submit"], input[type="reset"] {
+	font-size: 13px;
+	margin-right: 10px;
+}

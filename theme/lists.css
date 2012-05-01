@@ -1,0 +1,126 @@
+/****************************************************
+ ********************** LISTS ***********************
+ ****************************************************/
+
+/* Forum list */
+div.forabg, div.forumbg {
+	clear: both;
+	margin: 10px 0;
+}
+
+dl.topiclist {
+	border: solid 1px #141414;
+	background-color: #4A4A4A;
+	font-size: 12px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+dl.topiclist dl {
+	height: 1%;
+	overflow: hidden;
+}
+
+dl.topiclist dt {
+	display: block;
+	float: left;
+	margin: 6px;
+	width: 50%;
+}
+
+dl.topiclist dd {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 6px;
+}
+
+dl.topiclist dfn {
+	display: none;
+}
+
+dl.row, dl.header {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+dl.row {
+	margin-left: 10px;
+	padding-left: 30px;
+}
+
+dl.header {
+	background-color: #171717;
+}
+
+dd.posts, dd.topics, dd.views {
+	width: 8%;
+	text-align: center;
+}
+
+dd.lastpost {
+	width: 25%;
+}
+
+/* Link list */
+ul.linklist {
+	display: block;
+	margin: 3px 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+ul.linklist li {
+	display: block;
+	font-size: 11px;
+	line-height: 2.2em;
+	list-style-type: none;
+	margin-right: 10px;
+	width: auto;
+}
+
+ul.linklist li[class*="icon-"] {
+	float: left;
+	text-align: left;
+}
+
+ul.navlinks {
+	border-bottom: solid 1px #FFFFFF;
+	font-weight: bold;
+}
+
+ul.navlinks li {
+	margin: 3px 0;
+	margin-right: 10px;
+}
+
+ul.leftside {
+	float: left;
+	text-align: left;
+}
+
+ul.leftside li {
+	margin-right: 10px;
+}
+
+ul.rightside {
+	float: right;
+	text-align: right;
+}
+
+ul.rightside li {
+	float: right;
+	margin: 0;
+	margin-left: 10px;
+	text-align: right;
+}
+
+ul.navlinks li.rightside {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0px;
+	text-align: right;
+}
+

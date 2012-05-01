@@ -1,0 +1,191 @@
+/****************************************************
+ ********************* ELEMENTS *********************
+ ****************************************************/
+
+/* Reset */
+html, body, h1, h2, h3, p, ul, li, img, form, a, fieldset, dl, dt, dd {
+	clear: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.clearfix, #tabs, #minitabs, .post, .navbar, fieldset dl, dl.polls {
+height: 1%;
+overflow: hidden;
+}
+
+/* Elements */
+h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-right: 200px;
+	color: #FFFFFF;
+	margin-top: 15em;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #D9D9D9;
+	font-size: 20px;
+	margin: 0.8em 0 0.8em 0;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	padding-bottom: 2px;
+	font-size: 10.5px;
+	color: #989898;
+	clear: both;
+	margin-top: 20px;
+}
+
+h4 {
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+p {
+	font-size: 11px;
+}
+
+p.right {
+	text-align: right;
+}
+
+img {
+	border-width: 0;
+}
+
+hr {
+	border: 0 none #FFFFFF;
+	border-top: 1px solid #CCCCCC;
+	height: 1px;
+	margin: 5px 0;
+	display: block;
+	clear: both;
+}
+
+hr.dashed {
+	border-top: 1px dashed #CCCCCC;
+	margin: 10px 0;
+}
+
+hr.divider {
+	display: none;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B5B5B5;
+}
+
+.small {
+	font-size: 9px !important;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"], select, option {
+	background-color: #3A3A39;
+	border: 1px solid rgba(255, 200, 200, 0.25);
+	color: white;
+	font-size: 11px;
+	vertical-align: middle;
+	padding: 3px 5px;
+	margin: 0;
+	outline: none;
+}
+
+option {
+	padding: 0px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+	background-color: #4D4D4D;
+	cursor: pointer;
+}
+
+textarea, input[type="text"], input[type="password"] {
+	border: 1px solid #919191;
+	padding: 3px;
+}
+
+input[type="text"], input[type="password"] {
+	font-size: 13px;
+	padding: 3px 2px;
+}
+
+dl {
+	margin: 10px 0;
+}
+
+dt label {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+fieldset dt {
+	display: block;
+	float: left;
+	text-align: left;
+}
+
+fieldset.fields1 dt, fieldset.fields2 dt {
+	width: 20em;
+}
+
+fieldset.fields1 dl, fieldset.fields2 dl {
+	clear: both;
+	margin: 10px 0;
+}
+
+form#register, form#login fieldset {
+	background-color: #191919;
+	border: solid 1px #303030;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+form#login fieldset {
+	width: 400px;
+}
+
+form#login dt, form#login dt {
+	width: 50%;
+}
+
+/* Alignment */
+.leftside {
+	float: left;
+	text-align: left;
+}
+
+.rightside {
+	float: right;
+	text-align: right;
+}
+
+.left-box {
+	float: left;
+	width: auto;
+	text-align: left;
+}
+
+.right-box {
+	float: right;
+	width: auto;
+	text-align: right;
+}
+

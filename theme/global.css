@@ -1,0 +1,285 @@
+/****************************************************
+ ********************** GLOBAL **********************
+ ****************************************************/
+
+/* General */
+body {
+	color: #848484;
+	font-size: 62.5%;
+	font-family: Arial, Verdana, 'Lucida Grande', sans-serif;
+	text-align: left;
+}
+
+/* Navigation */
+div#nav-wrap {
+	height: 33px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1.5em 0 0 0;
+	background: #1E1E1E;
+	border-top: 5px solid #000;
+}
+
+div#nav {
+	height: 29px;
+	width: 965px;
+	margin: 0 auto;
+	padding: 0;
+	z-index: -1;
+}
+
+ul#navigation {
+	font-family: Georgia, 'Times New Roman', Serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+ul#navigation li {
+	display: inline;
+}
+
+ul#navigation li a {
+	color: #FFFFFF;
+	margin: 0 .1em 0 .2em;
+	padding: .5em;
+	text-decoration: none;
+}
+
+ul#navigation li a:hover, ul#navigation li a.active {
+	color: #FFFFFF;
+	margin: 0 .1em 0 .2em;
+	padding: .5em;
+	background: #840014;
+}
+
+/* Header */
+div#header {
+	height: 256px;
+	width: 965px;
+	margin: 0 auto; 
+	padding: 0;
+	clear: both;
+}
+
+div#header h1 {
+	display: none;
+}
+
+img.title {
+	float: right;
+	margin: 9em 0 0 0;
+}
+
+/* Container */
+div#container{
+	width: auto;
+	margin: 0 40px;
+	padding: 3em 0 0 0;
+	background: #1E1E1E;
+	border-top: 1px solid #3A3A39;
+}
+
+/* Content */
+#content-wrap {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+
+#content-bottom {
+	padding: 0;
+	margin: 0 auto;
+	width: auto;
+	clear: both;
+}
+
+div#forum {
+	float: none;
+	margin: 0;
+	padding: 10px;
+	text-align: justify;
+	line-height: 1.8em;
+}
+
+body > #simple-wrap {
+	padding: 10px;
+}
+
+div#page-body, #simple-wrap {
+	background-color: #1E1E1E;
+}
+
+.clear {
+	clear:both;
+	display: block;
+}
+
+/* Footer */
+#page-footer {
+	background: #1E1E1E;
+	clear: both;
+	margin-top: 20px;
+}
+
+#footer {
+	text-transform: lowercase;
+	width: auto;
+	margin: 0 2em 0 2em;
+	padding: 1.5em 0 1.5em;
+	color: #848484;
+	background: #1E1E1E;
+	border-top: 1px solid #3A3A39;
+}
+
+#footer p {
+	font-family: Arial, Verdana, 'Lucida Grande', Sans-Serif;
+ 	font-size: 1.1em;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 .5em 0;
+}
+	
+#footer a, #footer a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+	
+#footer a:hover {
+	color: #FF0007;
+	text-decoration: none;
+}
+
+.copyright {
+	background: #1E1E1E;
+	padding: 5px;
+	text-align: center;
+	color: #555555;
+}
+
+/* phpBB */
+.panel {
+	margin-bottom: 4px;
+}
+
+table.table1 {
+    background-color: #4A4A4A;
+	border: solid 1px #141414;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.table1 thead th {
+	background-color: #171717;
+	font-weight: normal;
+	color: #FFFFFF;
+	line-height: 160%;
+	font-size: 12px;
+	padding: 6px;
+}
+
+table.table1 tbody tr {
+	border: 1px solid #171717;
+}
+
+table.table1 td {
+	font-size: 11px;
+}
+
+table.table1 tbody td {
+	padding: 5px;
+}
+
+table.table1 tbody th {
+	padding: 5px;
+	text-align: left;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+
+table.table1 .name		{ text-align: left; }
+table.table1 .posts		{ text-align: center !important; width: 7%; }
+table.table1 .joined	{ text-align: left; width: 15%; }
+table.table1 .active	{ text-align: left; width: 15%; }
+table.table1 .mark		{ text-align: center; width: 7%; }
+table.table1 .info		{ text-align: left; width: 30%; }
+table.table1 .info div	{ width: 100%; white-space: normal; overflow: hidden; }
+table.table1 .autocol	{ line-height: 2em; white-space: nowrap; }
+table.table1 thead .autocol { padding-left: 1em; }
+
+table.table1 span.rank-img {
+	float: right;
+	width: auto;
+}
+
+table.info td {
+	padding: 3px;
+}
+
+table.info tbody th {
+	padding: 3px;
+	text-align: right;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+.forumbg table.table1 {
+	margin: 0 -2px -1px -1px;
+}
+
+.navbar {
+	background-color: #8B1A1A;
+	border-radius: 2px;
+	color: #FFFFFF;
+	clear: both;
+	margin: 5px 0px;
+	overflow: hidden;
+	padding: 5px 10px;
+}
+
+h2.title {
+	font-family: Georgia, 'Times New Roman', Serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	height: 53px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: white;
+	margin: 0;
+	margin-left: 10px;
+	padding: 0;
+}
+
+/* Search */
+div#search-box {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+div#search-box #keywords { 
+	vertical-align: middle;
+	width: 150px; 
+}
+	
+div#search-box .button2 { 
+	vertical-align: middle;
+}
+
+/* Quick login */
+fieldset.quick-login {
+	font-size: 13px;
+}
+
+fieldset.quick-login input {
+	margin-right: 10px;
+}

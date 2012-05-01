@@ -1,0 +1,14 @@
+/*
+ * Writers
+ * Theme for the GoW wiki.
+ * Adapted from Prosilver (phpBB) and
+ * Tweek's theme (Wordpress) by Lyrositor.
+ */
+
+@import url("elements.css");
+@import url("global.css");
+@import url("cp.css");
+@import url("editor.css");
+@import url("lists.css");
+@import url("post.css");
+@import url("misc.css");
