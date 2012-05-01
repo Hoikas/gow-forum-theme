@@ -171,14 +171,14 @@ div#page-body, #simple-wrap {
 }
 
 table.table1 {
-    background-color: #4A4A4A;
+    background-color: #171717;
 	border: solid 1px #141414;
 	border-collapse: collapse;
 	width: 100%;
 }
 
 table.table1 thead th {
-	background-color: #171717;
+	background-color: #2B2B2B;
 	font-weight: normal;
 	color: #FFFFFF;
 	line-height: 160%;

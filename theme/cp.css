@@ -20,12 +20,21 @@
 	margin-top: 10px;
 }
 
+.display-options {
+	padding: 0 1%;
+	width: 79%;
+}
+
 dd.mark {
 	float: right !important;
 }
 
 #markall {
 	display: block;
+}
+
+.pm-with-icon a.topictitle {
+	padding-left: 20px;
 }
 
 /* Menu */
