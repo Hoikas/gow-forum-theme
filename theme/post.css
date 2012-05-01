@@ -275,6 +275,12 @@ li.pagination {
 .pm-icon, .pm-icon a				{ background: url("{IMG_ICON_CONTACT_PM_SRC}") top left no-repeat; }
 
 /* Content */
+div.content
+{
+    padding-top: 0.5em;
+    padding-bottom: 2.0em;
+}
+
 .postbody .content ul, .postbody .content blockquote, .postbody .content dl.codebox {
 	padding-top: 0;
 	padding-bottom: 0;
@@ -310,4 +316,11 @@ li.pagination {
 
 #topicreview .postbody {
 	width: 100%;
+}
+
+div.signature
+{
+    border-top: thin solid #848484;
+    padding-top: 0.5em;
+    vertical-align: bottom;
 }
