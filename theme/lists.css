@@ -10,7 +10,7 @@ div.forabg, div.forumbg {
 
 dl.topiclist {
 	border: solid 1px #141414;
-	background-color: #4A4A4A;
+	background-color: #171717;
 	font-size: 12px;
 	display: block;
 	margin: 0px;
@@ -52,7 +52,7 @@ dl.row {
 }
 
 dl.header {
-	background-color: #171717;
+	background-color: #2B2B2B;
 }
 
 dd.posts, dd.topics, dd.views {
