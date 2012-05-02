@@ -300,3 +300,97 @@ div.signature
     padding-top: 0.5em;
     vertical-align: bottom;
 }
+
+/* Polls */
+fieldset.polls {
+	background-color: #191919;
+	border: solid 1px #303030;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	padding: 1%;
+}
+
+fieldset.polls dl {
+	margin-top: 5px;
+	border-top: 1px solid #848484;
+	padding: 5px 0 0 0;
+	line-height: 120%;
+	color: #595959;
+}
+
+fieldset.polls dl.voted {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+fieldset.polls dt {
+	text-align: left;
+	float: left;
+	display: block;
+	width: 30%;
+	border-right: none;
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+}
+
+fieldset.polls dd {
+	float: left;
+	width: 10%;
+	border-left: none;
+	padding: 0 5px;
+	margin-left: 0;
+	font-size: 11px;
+}
+
+fieldset.polls dd.resultbar {
+	width: 50%;
+}
+
+fieldset.polls dd input {
+	margin: 2px 0;
+}
+
+fieldset.polls dd div {
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0 2px;
+	overflow: visible;
+	min-width: 2%;
+}
+
+fieldset.polls dd div.pollbar1 {
+	background-color: #aaaaaa;
+	border-bottom: 1px solid #747474;
+	border-right: 1px solid #747474;
+	color: #000000;
+}
+
+fieldset.polls dd div.pollbar2 {
+	background-color: #bebebe;
+	border-bottom: 1px solid #8c8c8c;
+	border-right: 1px solid #8c8c8c;
+	color: #000000;
+}
+
+fieldset.polls dd div.pollbar3 {
+	background-color: #D1D1D1;
+	border-bottom: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	color: #000000;
+}
+
+fieldset.polls dd div.pollbar4 {
+	background-color: #e4e4e4;
+	border-bottom: 1px solid #bebebe;
+	border-right: 1px solid #bebebe;
+	color: #000000;
+}
+
+fieldset.polls dd div.pollbar5 {
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #D1D1D1;
+	border-right: 1px solid #D1D1D1;
+	color: #000000;
+}
