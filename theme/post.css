@@ -278,6 +278,10 @@ div.content
 	padding: 5px;
 }
 
+.postbody .content blockquote a {
+	color: #841A1A;
+}
+
 .postbody .content blockquote.uncited {
 	padding-top: 25px;
 }
