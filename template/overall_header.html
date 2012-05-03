@@ -88,20 +88,20 @@
 	<a href="/" title="Guild of Writers"><img class="title" src="http://guildofwriters.com/wp-content/themes/two/images/title.png" alt="Guild of Writers"></a>
 </div>
 <div id="container">
+	<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
+		<div id="search-box">
+			<form action="{U_SEARCH}" method="get" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="text" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search" value="<!-- IF SEARCH_WORDS-->{SEARCH_WORDS}<!-- ELSE -->{L_SEARCH_MINI}<!-- ENDIF -->" onclick="if(this.value=='{LA_SEARCH_MINI}')this.value='';" onblur="if(this.value=='')this.value='{LA_SEARCH_MINI}';" />
+					<input class="button2" value="{L_SEARCH}" type="submit" /><br />
+					<a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}">{L_SEARCH_ADV}</a> {S_SEARCH_HIDDEN_FIELDS}
+				</fieldset>
+			</form>
+		</div>
+	<!-- ENDIF -->
 	<div id="content-wrap">
 			<div id="forum">
 				<a name="wrap" style="height: 0px;"></a>
-				<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->
-					<div id="search-box">
-						<form action="{U_SEARCH}" method="get" id="search">
-							<fieldset>
-								<input name="keywords" id="keywords" type="text" maxlength="128" title="{L_SEARCH_KEYWORDS}" class="inputbox search" value="<!-- IF SEARCH_WORDS-->{SEARCH_WORDS}<!-- ELSE -->{L_SEARCH_MINI}<!-- ENDIF -->" onclick="if(this.value=='{LA_SEARCH_MINI}')this.value='';" onblur="if(this.value=='')this.value='{LA_SEARCH_MINI}';" />
-								<input class="button2" value="{L_SEARCH}" type="submit" /><br />
-								<a href="{U_SEARCH}" title="{L_SEARCH_ADV_EXPLAIN}">{L_SEARCH_ADV}</a> {S_SEARCH_HIDDEN_FIELDS}
-							</fieldset>
-						</form>
-					</div>
-				<!-- ENDIF -->
 				<h2 class="title">Forum</h2>
 				<div class="navbar">
 					<ul class="linklist navlinks">

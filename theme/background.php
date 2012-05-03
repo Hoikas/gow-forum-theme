@@ -14,6 +14,6 @@ $images = array(
 // component elsewhere. I cannot be assed to do that at the moment, however.
 $key = array_rand($images);
 echo "body {
-	background: #DCC8A3 url('{$images[$key]}') no-repeat top center;
+	background: #DCC8A3 url('{$images[$key]}') no-repeat -40px center;
 }";
 ?>
