@@ -62,9 +62,9 @@ ul#navigation li a:hover, ul#navigation li a.active {
 
 /* Header */
 div#header {
-	height: 256px;
+	height: 165px;
 	width: 965px;
-	margin: 0 auto; 
+	margin: 0 auto;
 	padding: 0;
 	clear: both;
 }
@@ -80,9 +80,10 @@ img.title {
 
 /* Container */
 div#container{
+	position: relative;
 	width: auto;
 	margin: 0 40px;
-	padding: 3em 0 0 0;
+	padding: 0;
 	background: #1E1E1E;
 	border-top: 1px solid #3A3A39;
 }
@@ -261,9 +262,15 @@ h2.title {
 
 /* Search */
 div#search-box {
-	float: right;
 	margin: 0;
-	padding: 0;
+	padding: 5px 10px;
+	height: 35px;
+	position: absolute;
+	top: -35px;
+	right: 0;
+	background: #1e1e1e;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 div#search-box #keywords { 
