@@ -15,7 +15,7 @@ div#nav-wrap {
 	height: 33px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 1.5em 0 0 0;
+	padding: 15px 0 0 0;
 	background: #1E1E1E;
 	border-top: 5px solid #000;
 }
@@ -30,7 +30,7 @@ div#nav {
 
 ul#navigation {
 	font-family: Georgia, 'Times New Roman', Serif;
-	font-size: 1em;
+	font-size: 10px;
 	font-style: normal;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -62,7 +62,7 @@ ul#navigation li a:hover, ul#navigation li a.active {
 
 /* Header */
 div#header {
-	height: 165px;
+	height: 256px;
 	width: 965px;
 	margin: 0 auto;
 	padding: 0;
@@ -75,7 +75,7 @@ div#header h1 {
 
 img.title {
 	float: right;
-	margin: 4em 0 0 0;
+	margin: 90px 0 0 0;
 }
 
 /* Container */
