@@ -15,7 +15,7 @@ div#nav-wrap {
 	height: 33px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 15px 0 0 0;
+	padding: 1.5em 0 0 0;
 	background: #1E1E1E;
 	border-top: 5px solid #000;
 }
@@ -75,7 +75,7 @@ div#header h1 {
 
 img.title {
 	float: right;
-	margin: 90px 0 0 0;
+	margin: 9em 0 0 0;
 }
 
 /* Container */
