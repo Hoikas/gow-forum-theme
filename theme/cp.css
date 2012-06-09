@@ -94,13 +94,18 @@ ul.cplist {
 }
 
 #cp-main table.table1 {
+	border: solid 1px #141414;
 	margin-bottom: 1em;
 }
 
+#cp-main table.table1 tbody {
+	border: solid 1px #141414;
+	border-collapse: none;
+}
+
 #cp-main table.table1 thead th {
-	color: #333333;
-	font-weight: bold;
-	border-bottom: 1px solid #333333;
+	border: none;
+	color: #848484;
 	padding: 5px;
 }
 
@@ -150,7 +155,23 @@ ul.cplist {
 #cp-main h2 {
 	border-bottom: none;
 	padding: 0;
-	margin-left: 10px;
+}
+
+#cp-main .postbody {
+	font-size: 13px;
+}
+
+#report .postbody .content {
+	margin: 10px 0;
+}
+
+fieldset.forum-selection {
+	float: right;
+	margin: 0.2em 0;
+}
+
+#mcp_report {
+	clear: right;
 }
 
 /* Navigation */
@@ -409,6 +430,7 @@ dl.pmlist .topiclist dd {
 	background-color: #f2f2f2;
 	margin-left: 2px;
 }
+
 #minitabs a:hover {
 	text-decoration: none;
 }
@@ -422,4 +444,3 @@ dl.pmlist .topiclist dd {
 	margin-right: 1%;
 	width: 77%;
 }
-

@@ -10,6 +10,20 @@ body {
 	text-align: left;
 }
 
+body#simple {
+	background-color: #1E1E1E;
+	color: #848484;
+	font-size: 12px;
+	font-family: Arial, Verdana, 'Lucida Grande', sans-serif;
+	text-align: left;
+}
+
+body#simple #page-body {
+	background-color: #191919;
+	border: solid 1px #303030;
+	padding: 5px;
+}
+
 /* Navigation */
 div#nav-wrap {
 	height: 33px;
@@ -161,6 +175,7 @@ div#page-body, #simple-wrap {
 
 .copyright {
 	background: #1E1E1E;
+	clear: both;
 	padding: 5px;
 	text-align: center;
 	color: #555555;
@@ -169,6 +184,21 @@ div#page-body, #simple-wrap {
 /* phpBB */
 .panel {
 	margin-bottom: 4px;
+}
+
+div#message {
+	background-color: #191919;
+	border-radius: 10px;
+	font-size: 14px;
+	padding: 20px 10px;
+}
+
+div#message h2 {
+	margin-top: 0;
+}
+
+div#message p {
+	font-size: 13px;
 }
 
 table.table1 {

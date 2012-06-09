@@ -27,7 +27,7 @@ div#smilies {
 	width: 80%;
 }
 
-#message {
+textarea#message {
 	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
 	width: 100%;
 	font-size: 12px;
