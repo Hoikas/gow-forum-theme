@@ -17,12 +17,12 @@
 }
 
 .reported {
-	background-color: #f7f7f7;
+	border: dotted 1px #8B1A1A;
 }
 
 div.rules {
-	background-color: #ececec;
-	color: #bcbcbc;
+	background-color: #8B1A1A;
+	color: #FFFFFF;
 	padding: 0 10px;
 	margin: 10px 0;
 	font-size: 11px;
@@ -33,8 +33,10 @@ div.rules ul, div.rules ol {
 }
 
 p.rules {
-	background-color: #ececec;
+	background-color: #8B1A1A;
 	background-image: none;
+	border-radius: 3px;
+	color: #FFFFFF;
 	padding: 5px;
 }
 
@@ -77,6 +79,10 @@ dl.details dd {
 
 .posthilit {
 	background-color: #8B3A3A;
+}
+
+form#confirm p {
+	margin: 10px 0;
 }
 
 /* FAQ */
