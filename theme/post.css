@@ -16,10 +16,20 @@
 	background-position: 100% 0;
 }
 
+.post#preview .postbody {
+	float: none;
+	width: 100%;
+}
+
 .postbody {
 	clear: both;
 	float: right;
 	width: 76%;
+}
+
+#simple .postbody {
+	float: none;
+	width: 100%;
 }
 
 .postprofile {
