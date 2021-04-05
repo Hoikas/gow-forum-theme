@@ -7,6 +7,19 @@
 <meta name="description" content="">
 {META}
 <title>{SITENAME} &bull; <!-- IF S_IN_MCP -->{L_MCP} &bull; <!-- ELSEIF S_IN_UCP -->{L_UCP} &bull; <!-- ENDIF -->{PAGE_TITLE}</title>
+<script type="text/javascript">
+var tapatalkdir="{MOBIQUO_NAME}";
+var tapatalk_ipad_msg = '{TAPATALK_IPAD_MSG}';
+var tapatalk_ipad_url  = '{TAPATALK_IPAD_URL}';
+var tapatalk_iphone_msg = '{TAPATALK_IPHONE_MSG}';
+var tapatalk_iphone_url  = '{TAPATALK_IPHONE_URL}';
+var tapatalk_android_msg = '{TAPATALK_ANDROID_MSG}';
+var tapatalk_android_url  = '{TAPATALK_ANDROID_URL}';
+var tapatalk_kindle_msg = '{TAPATALK_KINDLE_MSG}';
+var tapatalk_kindle_url  = '{TAPATALK_KINDLE_URL}';
+var tapatalk_chrome_enable = '{TAPATALK_CHROME_ENABLE}';
+</script>
+<script type="text/javascript" src="{TAPATALKDETECT_JS}"></script>
 
 <!-- IF S_ENABLE_FEEDS -->
 	<!-- IF S_ENABLE_FEEDS_OVERALL --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {SITENAME}" href="{U_FEED}"><!-- ENDIF -->
@@ -73,19 +86,19 @@
 <div id="nav-wrap">
 	<div id="nav">
 		<ul id="navigation">
-			<li><a href="http://www.guildofwriters.org/index.php">Home</a></li>
-			<li><a href="http://www.guildofwriters.org/wiki" title="Guild of Writers Wiki">Wiki</a></li>
-			<li><a href="http://forum.guildofwriters.org" title="Discussion Forum">Forum</a></li>
-			<li><a href="http://www.guildofwriters.org/council" title="Guild Council">Council</a></li>
-			<li><a href="http://www.guildofwriters.org/journals/" title="Writers&#8217; Development Journals">Development Journals</a></li>
-			<li><a href="http://www.guildofwriters.org/cwe-dev" title="CyanWorlds.com Engine Development">Engine Development</a></li>
-			<li><a href="http://www.guildofwriters.org/gehn/">Gehn Shard</a></li>
+			<li><a href="//guildofwriters.org/index.php">Home</a></li>
+			<li><a href="//guildofwriters.org/wiki" title="Guild of Writers Wiki">Wiki</a></li>
+			<li><a href="/index.php" title="Discussion Forum">Forum</a></li>
+			<li><a href="//guildofwriters.org/council" title="Guild Council">Council</a></li>
+			<li><a href="//guildofwriters.org/journals/" title="Writers&#8217; Development Journals">Development Journals</a></li>
+			<li><a href="//www.guildofwriters.org/cwe-dev" title="CyanWorlds.com Engine Development">Engine Development</a></li>
+			<li><a href="//www.guildofwriters.org/gehn/">Gehn Shard</a></li>
 		</ul>
 	</div>
 </div>
 <div id="header">
 	<h1>Guild of Writers</h1>
-	<a href="/" title="Guild of Writers"><img class="title" src="http://guildofwriters.com/wp-content/themes/two/images/title.png" alt="Guild of Writers"></a>
+	<a href="/" title="Guild of Writers"><img class="title" src="//guildofwriters.org/wp-content/themes/two/images/title.png" alt="Guild of Writers"></a>
 </div>
 <div id="container">
 	<!-- IF S_DISPLAY_SEARCH and not S_IN_SEARCH -->

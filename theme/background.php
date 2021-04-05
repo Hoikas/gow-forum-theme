@@ -2,11 +2,11 @@
 header('Content-type: text/css');
 # An array containing images picked at random
 $images = array(
-    'http://www.guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-01.jpg',
-    'http://www.guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-02.jpg',
-    'http://www.guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-03.jpg',
-    'http://www.guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-04.jpg',
-    'http://www.guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-05.jpg'
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-01.jpg',
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-02.jpg',
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-03.jpg',
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-04.jpg',
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-05.jpg'
 );
 
 // Current functionality: embed in a background image with hardcoded bg color
