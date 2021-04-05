@@ -6,7 +6,9 @@ $images = array(
     '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-02.jpg',
     '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-03.jpg',
     '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-04.jpg',
-    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-05.jpg'
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-05.jpg',
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-06.jpg',
+    '//guildofwriters.org/wp-content/themes/two/images/backgrounds/bkgrd-body-07.jpg'
 );
 
 // Current functionality: embed in a background image with hardcoded bg color
