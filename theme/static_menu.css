@@ -1,0 +1,51 @@
+/*  GoW Static Menu Extension Style Sheet  */
+
+div#nav-wrap {
+	height: 33px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em 0 0 0;
+	background: #1E1E1E;
+	border-top: 5px solid #000;
+}
+
+nav {
+	height: 29px;
+	width: 965px;
+	margin: 0 auto;
+	padding: 0;
+	z-index: -1;
+}
+
+nav > ul {
+	font-family: Georgia, 'Times New Roman', Serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	color: #fff;
+	text-align: left;
+}
+
+nav > ul li {
+	display: inline;
+}
+
+nav > ul li a {
+	color: #fff;
+	margin: 0 .1em 0 .2em;
+	padding: .5em;
+	text-decoration: none;
+}
+
+nav > ul li a:hover, nav > ul li a.active {
+	color: #fff;
+	margin: 0 .1em 0 .2em;
+	padding: .5em;
+	background: #840014;
+	text-decoration: none;
+}

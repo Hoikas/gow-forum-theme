@@ -1,0 +1,32 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			Guild of Writers
+	Based on style:     ProSilver
+	Original authors:	Tweek, Lyrositor, Deledrius
+    --------------------------------------------------------------
+*/
+
+.wrap {
+    width: auto;
+    margin: 0 40px;
+    /*margin-top: 250px;*/
+    max-width: inherit;
+}
+
+body {
+    padding-top: 0;
+}
+
+div#header {
+	height: 256px;
+	width: 965px;
+	margin: 0 auto;
+	padding: 0;
+	clear: both;
+}
+div#header > a {
+    float: right;
+}
+img.title {
+	margin: 9em 0 0 0;
+}
