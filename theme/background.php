@@ -18,4 +18,3 @@ $key = array_rand($images);
 echo "body {
 	background: #DCC8A3 url('{$images[$key]}') no-repeat top center;
 }";
-?>

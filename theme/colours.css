@@ -1,0 +1,371 @@
+:root {
+    --main-bg-tan: #DCC8A3;
+    --gow-grey: #2B2B2B;
+    --gow-red: #8B1A1A;
+    --gow-blue: #115098;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for common.css
+-------------------------------------------------------------- */
+
+html,
+body {
+    color: #848484;
+    background-color: var(--main-bg-tan);
+}
+
+h2, h3 {
+    color: #C4C4C4;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
+
+a {
+    color: #D5D5D5;
+}
+
+a:hover, a:focus, a:active {
+    color: #F5F5F5;
+}
+
+
+/*
+--------------------------------------------------------------
+Round cornered boxes and backgrounds
+-------------------------------------------------------------- */
+
+.wrap {
+    background-color: #1E1E1E;
+}
+
+.headerbar, .forumbg {
+	background: var(--gow-grey);
+}
+
+.header-avatar {
+    text-shadow: 1px 1px 4px black;
+}
+
+.forabg {
+	background: var(--gow-grey);
+}
+
+
+.navbar {
+    background-color: var(--gow-red);
+}
+
+.breadcrumbs .crumb::before {
+    color: #DDD;
+}
+
+.panel {
+    background-color: var(--gow-grey);
+    color: #333;
+}
+
+.post:target .content {
+    color: #BBB;
+}
+
+.post:target h3 a {
+    color: #BBB;
+}
+
+.bg1 {
+    background-color: #292929;
+}
+
+.bg2 {
+    background-color: #292929;
+}
+
+table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
+    background-color: #191919;
+}
+
+ul.forums {
+    background: #171717;
+}
+
+ul.topiclist li {
+    color: #848484;
+}
+
+ul.topiclist dd {
+    border-left-color: #272727;
+}
+
+.rtl ul.topiclist dd {
+    border-right-color: #272727;
+    border-left-color: transparent;
+}
+
+dl.faq dt {
+    color: #DDD;
+}
+
+li.row {
+    border-top-color: #000;
+    border-bottom-color: #171717;
+}
+
+li.row:hover {
+    background-color: #333;
+}
+
+.postbody {
+    color: #DDD;
+}
+
+.content {
+    color: #AAA;
+}
+
+.content h2,
+.panel h2 {
+    color: #FFFFFF;
+    border-bottom-color: #CCCCCC;
+}
+
+.postprofile {
+    color: #BBB;
+    border-color: #FFFFFF;
+}
+
+.postprofile strong {
+    color: #FFF;
+}
+
+.search-box .inputbox,
+.search-box .inputbox:hover,
+.search-box .inputbox:focus {
+    color: #000;
+    border-color: #C7C3BF;
+    background-color: #DDD;
+}
+
+.search-box .inputbox:hover,
+.search-box .inputbox:focus {
+    box-shadow: 0 0 10px #DDD;
+}
+
+.search-header {
+    box-shadow: 0 0 10px #333;
+}
+
+blockquote, blockquote div, .codebox {
+    background-color: #333;
+}
+
+.codebox pre code {
+    color: #DDD;
+}
+
+/* GoW's Custom Forum & Topic icons */
+.global_read						{ background-image: url("./images/announce_read.png"); }
+.global_read_mine					{ background-image: url("./images/announce_read_mine.png"); }
+.global_read_locked					{ background-image: url("./images/announce_read_locked.png"); }
+.global_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.png"); }
+.global_unread						{ background-image: url("./images/announce_unread.png"); }
+.global_unread_mine					{ background-image: url("./images/announce_unread_mine.png"); }
+.global_unread_locked				{ background-image: url("./images/announce_unread_locked.png"); }
+.global_unread_locked_mine			{ background-image: url("./images/announce_unread_locked_mine.png"); }
+
+.announce_read						{ background-image: url("./images/announce_read.png"); }
+.announce_read_mine					{ background-image: url("./images/announce_read_mine.png"); }
+.announce_read_locked				{ background-image: url("./images/announce_read_locked.png"); }
+.announce_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.png"); }
+.announce_unread					{ background-image: url("./images/announce_unread.png"); }
+.announce_unread_mine				{ background-image: url("./images/announce_unread_mine.png"); }
+.announce_unread_locked				{ background-image: url("./images/announce_unread_locked.png"); }
+.announce_unread_locked_mine		{ background-image: url("./images/announce_unread_locked_mine.png"); }
+
+.forum_link							{ background-image: url("./images/forum_link.png"); }
+.forum_read							{ background-image: url("./images/forum_read.png"); }
+.forum_read_locked					{ background-image: url("./images/forum_read_locked.png"); }
+.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.v"); }
+.forum_unread						{ background-image: url("./images/forum_unread.png"); }
+.forum_unread_locked				{ background-image: url("./images/forum_unread_locked.png"); }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.v"); }
+
+.sticky_read						{ background-image: url("./images/sticky_read.png"); }
+.sticky_read_mine					{ background-image: url("./images/sticky_read_mine.png"); }
+.sticky_read_locked					{ background-image: url("./images/sticky_read_locked.png"); }
+.sticky_read_locked_mine			{ background-image: url("./images/sticky_read_locked_mine.png"); }
+.sticky_unread						{ background-image: url("./images/sticky_unread.png"); }
+.sticky_unread_mine					{ background-image: url("./images/sticky_unread_mine.png"); }
+.sticky_unread_locked				{ background-image: url("./images/sticky_unread_locked.png"); }
+.sticky_unread_locked_mine			{ background-image: url("./images/sticky_unread_locked_mine.png"); }
+
+.topic_moved						{ background-image: url("./images/topic_moved.png"); }
+.pm_read,
+.topic_read							{ background-image: url("./images/topic_read.png"); }
+.topic_read_mine					{ background-image: url("./images/topic_read_mine.png"); }
+.topic_read_hot						{ background-image: url("./images/topic_read_hot.png"); }
+.topic_read_hot_mine				{ background-image: url("./images/topic_read_hot_mine.png"); }
+.topic_read_locked					{ background-image: url("./images/topic_read_locked.png"); }
+.topic_read_locked_mine				{ background-image: url("./images/topic_read_locked_mine.png"); }
+.pm_unread,
+.topic_unread						{ background-image: url("./images/topic_unread.png"); }
+.topic_unread_mine					{ background-image: url("./images/topic_unread_mine.png"); }
+.topic_unread_hot					{ background-image: url("./images/topic_unread_hot.png"); }
+.topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot_mine.png"); }
+.topic_unread_locked				{ background-image: url("./images/topic_unread_locked.png"); }
+.topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.png"); }
+
+label {
+    color: #B7B7B7;
+}
+
+dd label {
+    color: #999;
+}
+
+fieldset dl:hover dt label {
+    color: #FFF;
+}
+fieldset dl dt span {
+    color: #FFF;
+}
+
+.message-box textarea {
+    color: #DDD;
+}
+
+.inputbox {
+    background-color: #333;
+    border-color: #B4BAC0;
+    color: #DDD;
+}
+
+.inputbox:hover {
+    border-color: var(--gow-red);
+}
+
+.inputbox:focus {
+    border-color: var(--gow-red);
+}
+
+.dropdown .dropdown-contents {
+    background-color: #181818;
+}
+
+.dropdown .pointer-inner {
+    border-color: #181818 transparent;
+}
+
+.dropdown-extended .header {
+    background-image: none;
+    text-shadow: none;
+    background-color: var(--gow-grey);
+    color: white;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for buttons.css
+-------------------------------------------------------------- */
+.button, input.button, a.button,
+.button1, input.button1, a.button1,
+.button2, input.button2, a.button2,
+.button3, input.button3, a.button3 {
+
+    background: #3A3A39;
+	border-color: rgba(255, 200, 200, 0.25);
+	color: white;
+	box-shadow: 0 0 0 1px #FFFFFF inset;
+}
+
+input.button1, a.button2 {
+    padding: 5px;
+}
+
+.button:hover, .button:focus,
+.button1:hover, .button1:focus,
+.button2:hover, .button2:focus,
+.button3:hover, .button3:focus,
+a.button:hover, a.button:focus,
+a.button1:hover, a.button1:focus,
+a.button2:hover, a.button2:focus,
+a.button3:hover, a.button3:focus,
+input.button:hover, input.button:focus,
+input.button1:hover, input.button1:focus,
+input.button2:hover, input.button2:focus,
+input.button3:hover, input.button3:focus {
+    background-image: none;
+    text-shadow: none;
+    border-color: #3A3A39;
+	background-color: #5F5F5C;
+    color: white;
+}
+
+.button-secondary:focus, .button-secondary:hover, .button:focus .icon, .button:hover .icon {
+    color: white;
+}
+
+
+/*
+--------------------------------------------------------------
+Control Panel colors for cp.css
+-------------------------------------------------------------- */
+
+.bg3 {
+    background-color: var(--gow-red);
+}
+
+.panel-container .panel {
+    color: #DDD;
+    background-color: #292929;
+}
+
+.panel dl.details dt,
+.panel-container .panel li.header dd,
+.panel-container .panel li.header dt,
+.panel-container table.table1 thead th {
+    color: white;
+}
+
+.tabs .tab > a {
+    background: #522;
+    color: #DDD;
+}
+
+.tabs .tab > a:hover {
+    color: #D31141;
+    background-color: #522;
+}
+
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
+    background: var(--gow-red);
+    border-color: #444;
+    border-bottom-color: #000;
+    box-shadow: 0 1px 1px #F2F9FF inset;
+}
+
+.tabs .activetab > a:hover {
+    color: #FFF;
+}
+
+/*.cp-menu {}*/
+
+.navigation a {
+    color: black;
+    background: #8C6666;
+}
+
+.navigation a:hover {
+    background: #292929;
+}
+
+.navigation .active-subsection a {
+    background: #292929;
+}
+
+

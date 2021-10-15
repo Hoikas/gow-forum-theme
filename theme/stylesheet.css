@@ -1,14 +1,27 @@
-/*
- * Writers
- * Theme for the GoW wiki.
- * Adapted from Prosilver (phpBB) and
- * Tweek's theme (Wordpress) by Lyrositor.
- */
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:        Guild of Writers
+	Based on style:    ProSilver
+	Original authors:  Tweek, Lyrositor, Deledrius
+    --------------------------------------------------------------
+*/
 
-@import url("elements.css");
-@import url("global.css");
-@import url("cp.css");
-@import url("editor.css");
-@import url("lists.css");
-@import url("post.css");
-@import url("misc.css");
+/* Inherit styles from parent Theme. */
+@import url("../../prosilver/theme/normalize.css?v=3.3");
+@import url("../../prosilver/theme/base.css?v=3.3");
+@import url("../../prosilver/theme/utilities.css?v=3.3");
+@import url("../../prosilver/theme/common.css?v=3.3");
+@import url("../../prosilver/theme/links.css?v=3.3");
+@import url("../../prosilver/theme/content.css?v=3.3");
+@import url("../../prosilver/theme/buttons.css?v=3.3");
+@import url("../../prosilver/theme/cp.css?v=3.3");
+@import url("../../prosilver/theme/forms.css?v=3.3");
+@import url("../../prosilver/theme/icons.css?v=3.3");
+@import url("../../prosilver/theme/responsive.css?v=3.3");
+@import url("../../prosilver/theme/colours.css?v=3.3");
+
+@import url("colours.css?v=2.0");
+@import url("common.css?v=2.0");
+@import url("buttons.css?v=2.0");
+@import url("static_menu.css?v=2.0");
+@import url("background.php?v=2.0");
