@@ -1,0 +1,9 @@
+.button {
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.button-icon-only {
+    font-family: unset;
+}
